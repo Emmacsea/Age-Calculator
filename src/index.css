@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inp {
+    @apply w-28 bg-transparent outline-none text-neutral-lightgrey text-xs font-medium rounded-md border-2  px-3 py-3 placeholder:uppercase placeholder:text-lg placeholder:font-bold 
+}
+
+.label {
+    @apply uppercase text-xl font-semibold
+}
+
+.error {
+    @apply text-primary-lightred text-sm font-medium
+}
+
+.inpdet {
+    @apply text-primary-purple text-7xl font-bold
+}
+
+.inpcal {
+    @apply text-neutral-offblack text-7xl font-bold
+}
