@@ -61,7 +61,7 @@ export const AgeCalculator = ({
                     : "border-neutral-lightgrey"
                 }`}
                 type="text"
-                placeholder="dd"
+                placeholder="mm"
                 value={month}
                 onChange={onChangeMonth}
                 />
